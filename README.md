@@ -1,6 +1,4 @@
-# Boston_Housing
-
-# 波士顿房价模型(boston_housing)
+# 波士顿房价模型(Boston_Housing)
 
 ## 1 建模目标
 分析三个自变量与房价估值之间的关系，建立回归模型。
