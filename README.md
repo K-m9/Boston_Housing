@@ -44,7 +44,7 @@ dtype: bool
 ![](https://latex.codecogs.com/svg.latex?\chi^2_{0.05}(4)=11.14),可得出所有的![](https://latex.codecogs.com/svg.latex?D_i^2%3E11.14)的个数为0个，说明无异常值。
 
 ### 3.2 模型建立
-由于模型的特征值较少，本文使用Lasso回归、弹性网回归和SVR进行建模比较，最终得出SVR模型的$R^2$最大，因此取SVR模型作为最终模型。
+由于模型的特征值较少，本文使用Lasso回归、弹性网回归和SVR进行建模比较，最终得出SVR模型的![](https://latex.codecogs.com/svg.latex?R^2)最大，因此取SVR模型作为最终模型。
 #### 3.2.1 支持向量机回归
 ##### 3.2.1.1 SVR基础知识
 给定训练样本![](https://latex.codecogs.com/svg.latex?D=\{(x_1,y_1),(x_2,y_2),...,(x_m,y_m)\},y_i\in{R}),希望学得一个形如![](https://latex.codecogs.com/svg.latex?f(x)=\omega^Tx+b)的回归模型，使得f(x)与y尽可能接近。假定能容忍f(x)与y之间最多有![](https://latex.codecogs.com/svg.latex?\epsilon)的偏差，
