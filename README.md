@@ -71,7 +71,7 @@ SVR问题可以形式化为：
 
 #### 3.2.4 性能度量
 使用![](https://latex.codecogs.com/svg.latex?R^2)作为性能度量指标，将测试集代入最终的SVR模型，得到![](https://latex.codecogs.com/svg.latex?R^2=0.8688)。画出预测值和真实值的散点图如下图所示。
-![](https://github.com/K-m9/Boston_Housing/blob/master/pred_true.png)
+<div align=center><img width="400" height="250" src="https://github.com/K-m9/Boston_Housing/blob/master/pred_true.png"/></div>
 
 ## 4 结论
 根据上述分析，波士顿房价模型如下所示：
